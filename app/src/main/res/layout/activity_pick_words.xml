@@ -11,7 +11,31 @@
     tools:context="edu.madeupbypedro.jumblesolver.PickWords">
 
     <TextView
+        android:text="Enter Number of Words"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="37dp"
+        android:id="@+id/textView" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:layout_marginTop="60dp"
+        android:id="@+id/numWordsText"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:hint="Number of Words"
+        android:textAlignment="center" />
+
+    <Button
+        android:text="Done"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/doneButton" />
 </RelativeLayout>
